@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  margin: 0 auto;
+  
+}
+.main {
+  width: 100%;
+  height: 180px;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.sub_container {
+  width: 80px;
+  height: 80px;
+  border: 1px solid red;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+#apple {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+#ball {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+#cat {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+#dog {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+#elephant {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+#fish {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+#grapes {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+#horse {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+#ice-cream {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+#jug {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+#kite {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+#lion {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+#monkey {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+#nest {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+#orange {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+#peacock {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+#queen {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+#rose {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+#sun {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+#telephone {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+#umbrella {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+#van {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+#watch {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+#x-ray {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+#yak {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+
+#zebra {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
