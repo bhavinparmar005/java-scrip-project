@@ -1,5 +1,6 @@
 document.addEventListener("keydown", (e) => {
   if (e.key === "a" || e.key === "A") {
+    document.getElementById('a').style.background='red'
     document.getElementById("apple").style.display = "block";
     document.getElementById("ball").style.display = "none";
     document.getElementById("cat").style.display = "none";
@@ -701,7 +702,8 @@ document.addEventListener("keydown", (e) => {
     document.getElementById("x-ray").style.display = "none";
     document.getElementById("yak").style.display = "none";
     document.getElementById("zebra").style.display = "block";
-  } else {
-    alert("wrong key");
-  }
+  } 
+  // else {
+  //   alert("wrong key");
+  // }
 });
