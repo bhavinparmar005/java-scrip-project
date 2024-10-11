@@ -181,3 +181,10 @@ body{
   width: 100%;
   display: none;
 }
+@media (width <=500px) {
+  .container{
+   width: 250px;
+   height: 250px;
+  }
+  
+}
