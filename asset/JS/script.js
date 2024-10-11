@@ -1,6 +1,8 @@
 document.addEventListener("keydown", (e) => {
   if (e.key === "a" || e.key === "A") {
-    document.getElementById('a').style.background='red'
+    document.getElementById("audio_for_a").play();
+    
+   
     document.getElementById("apple").style.display = "block";
     document.getElementById("ball").style.display = "none";
     document.getElementById("cat").style.display = "none";
@@ -28,6 +30,10 @@ document.addEventListener("keydown", (e) => {
     document.getElementById("yak").style.display = "none";
     document.getElementById("zebra").style.display = "none";
   } else if (e.key === "b" || e.key === "B") {
+    
+    document.getElementById("audio_for_b").play();
+  
+
     document.getElementById("apple").style.display = "none";
     document.getElementById("ball").style.display = "block";
     document.getElementById("cat").style.display = "none";

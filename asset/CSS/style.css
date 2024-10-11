@@ -11,8 +11,8 @@ body{
   background-repeat: no-repeat;
 }
 .container {
-  width: 150px;
-  height: 150px;
+  width: 350px;
+  height: 350px;
   border: 1px solid black;
   margin: 20px auto;
   border-radius:10px;
@@ -27,7 +27,7 @@ body{
 .main {
   width: 100%;
   height: auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -35,17 +35,19 @@ body{
   justify-content: space-around;
 }
 .sub_container {
-  width: 30px;
-  height: 30px;
-  border: 1px solid rgb(170, 125, 125);
+  width: 70px;
+  height: 70px;
+  /* border: 1px solid rgb(170, 125, 125); */
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 600;
   flex-wrap: wrap;
   color: azure;
+  background-color: rgba(211, 211, 211, 0.221);
+  backdrop-filter: blur(2px);
   
 }
 
@@ -183,8 +185,13 @@ body{
 }
 @media (width <=500px) {
   .container{
-   width: 250px;
-   height: 250px;
+   width: 200px;
+   height: 200px;
+  }
+  .sub_container{
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
   }
   
 }
