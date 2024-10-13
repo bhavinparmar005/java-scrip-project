@@ -183,12 +183,13 @@ body {
 }
 @media (width <=500px) {
   .container {
-    width: 200px;
-    height: 200px;
+    width: 260px;
+    height: 260px;
+  
   }
   .sub_container {
-    width: 50px;
-    height: 50px;
+    width: 58px;
+    height: 58px;
     font-size: 1.3rem;
   }
 }

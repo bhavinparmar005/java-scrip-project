@@ -107,9 +107,8 @@ document.addEventListener("keydown", (e) => {
     displayImage.setAttribute("src", "./asset/IMG/zebra.jpg");
     imageAudio.setAttribute("src", "./asset/A TO Z Audio/Z.mp3");
     imageAudio.play();
-  } else {
-    alert("wrong key");
-  }
+  } 
+  
 });
 
 let a = () => {
